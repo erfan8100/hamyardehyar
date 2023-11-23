@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    @media (max-width: 411px) {
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .banner-text {
+        text-align: center;
+        font-family: Nastaliq;
+        font-size: 18px;
+        height: 50px;
+        width: 300px;
+        line-height: 50px;
+        color: white; /* Added to change text color to white */
+      }
+
+      .button-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      .custom-button {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-image: url('pic81.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      
+      .height-button {
+        height: 140px;
+        width: 140px;
+        border-radius: 50%;
+        background-image: url('Dehyar.png'); /* Replace 'your_picture.jpg' with the path to your desired picture */
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+      }
+
+      .gif-container {
+        display: flex;
+        flex-direction: column; /* Changed from 'row' to 'column' */
+        justify-content: center;
+        align-items: center; /* Added to center items vertically */
+        margin-top: 20px;
+      }
+
+      .gif {
+        height: 140px;
+        width: 170px;
+        background-image: url('keygif.gif');
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 20px; /* Added some margin to separate the GIF from the buttons */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="backpic1.png" style="display: inline-block; background-image: url('background.jpeg'); background-size: 290px 150px; background-repeat: no-repeat;">
+      <img src="backpic1.png" alt="Banner" style="height: 150px; width: 290px;">
+      <div class="banner-text">دهیاری روستای نصرت آباد شهرستان سیرجان</div>
+    </a>
+    <div class="button-container">
+      <button class="custom-button"></button>
+      <button class="height-button"></button>
+    </div>
+    <div class="gif-container">
+      <div class="gif"></div>
+    </div>
+  </div>
+</body>
+</html>
